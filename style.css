@@ -1,0 +1,157 @@
+:root {
+  --branco-principal: #ffffff;
+  --cinza-secundario: #C0C0C0;
+  --botao-azul: #167BF7;
+  --cor-de-fundo: #00030C;
+  --font-principal: 'inter';
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+ background-color: var(--cor-de-fundo);
+ color: var(--branco-principal);
+ font-family: var(--font-principal);
+ font-size: 16px;
+ font-weight: 400;
+}
+
+.principal {
+  background-image: url("./assets/Background.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  align-items: center;
+  text-align: center;
+}
+
+.conteiner {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.conteiner__principal__titulo {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.conteiner__botao {
+  background-color: var(--botao-azul);
+  border-radius: 8px;
+  padding: 1em;
+  color: var(--branco-principal);
+  display: block;
+  text-decoration: none;
+  margin: 1em 2em 0 0;
+  }
+
+  .botao__secundario {
+    background-color: transparent;
+    border: 2px solid var(--branco-principal);
+  }
+
+
+  .conteiner__aviso {
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--cinza-secundario);
+  }
+
+  .conteiner__imagem {
+    margin: 1em 0 2em 0;
+  }
+
+  .conteiner__caixa {
+    margin: 0 6em;
+  }
+ 
+  .secundario__imagem {
+    width: 80%;
+  }
+
+  .secundario{
+    align-items: center;
+    margin: 0 10em;
+  }
+
+  .descricao__titulo {
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 0.1em;
+  }
+
+  .descricao__texto {
+    color: var(--cinza-secundario);
+  }
+
+  .secundario__botao {
+    margin: 1em 33.7em 0 0;
+    text-align: center;
+    background-color: var(--botao-azul);
+    border-radius: 8px;
+    padding: 1em;
+    color: var(--branco-principal);
+    display: block;
+    text-decoration: none;    
+  }
+
+  .secundario__titulo {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 1em;
+  }
+
+  .conteiner__secundario {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;   
+    text-align: center;
+    margin: 0 13em;
+    
+  }
+
+  .secundario__descricao {
+    font-size: 32px;
+    font-weight: 700;
+  }
+  
+  
+  .conteiner__dispositivos {
+    height: 50vh;
+  }
+
+  .dispositivos {
+    width: 70%;
+  }
+
+  .rodape {
+    text-align: center;
+    height: 30vh;
+  } 
+
+  .rodape {
+    display: block;
+  }
+
+  .rodape__links {
+    margin-top: 3em;
+  }
+
+  .rodape__links__link {
+    
+    text-decoration: none;
+    color: var(--branco-principal);
+    margin-left: 1em;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .rodape__info {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--cinza-secundario);
+    margin-top: 1em;
+  }
